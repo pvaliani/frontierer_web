@@ -1,9 +1,12 @@
-import { faFacebook, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import { links, Link as SocialLink } from "./socialLinks";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBandcamp } from "@fortawesome/free-brands-svg-icons/faBandcamp";
-import { faApple } from "@fortawesome/free-brands-svg-icons/faApple";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
+
+import {
+  FaSpotify,
+  FaBandcamp,
+  FaApple,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
 
 const Link = () => {
   return (
@@ -11,21 +14,19 @@ const Link = () => {
       {links.map((link, index) => (
         <div key={index}>
           <a href={link.appleMusic} target="_blank" rel="noopener noreferrer">
-            Apple
-            <FontAwesomeIcon icon={faApple} size="lg" />
+            <FaApple size="4rem" />
           </a>
           <a href={link.bandcamp} target="_blank" rel="noopener noreferrer">
-            Bandcamp
-            <FontAwesomeIcon icon={faBandcamp} size="lg" />
+            <FaBandcamp size="4rem" />
           </a>
           <a href={link.facebook} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faFacebook} size="lg" />
+            <FaFacebook size="4rem" />
           </a>
           <a href={link.instagram} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} size="lg" />
+            <FaInstagram size="4rem" />
           </a>
           <a href={link.spotify} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faSpotify} size="lg" />
+            <FaSpotify size="4rem" />
           </a>
         </div>
       ))}
