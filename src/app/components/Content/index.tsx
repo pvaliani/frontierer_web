@@ -1,4 +1,4 @@
-import { biography } from "./content"; // Adjust the path as needed if different
+import { biography } from "./content";
 
 const Content = () => {
   return (
