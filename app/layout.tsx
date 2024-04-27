@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Frontierer",
+  title: "Frontierer | Official Site",
   description: "Frontierer - Sonic Terror from Scotland and the USA",
 };
 
