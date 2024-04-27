@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 
 const Header = () => {
   return (
-    <header className="w-full flex justify-center items-start pt-4">
+    <header className="w-full flex justify-center items-center pt-4">
       <Navigation />
       <FrontiererLogo style={{ transform: "scale(0.5)" }} />
     </header>
