@@ -1,4 +1,4 @@
-type Link = {
+export type Link = {
     appleMusic: string;
     bandcamp: string;
     facebook: string;
@@ -6,7 +6,7 @@ type Link = {
     spotify: string;
 };
 
-const links: Link[] = [
+export const links: Link[] = [
     {
         appleMusic: "https://music.apple.com/gb/artist/frontierer/1119413295",
         bandcamp: "https://frontierer.bandcamp.com",
