@@ -6,7 +6,10 @@ const Header = () => {
   return (
     <header className="w-full flex justify-center items-center pt-4">
       <Navigation />
-      <FrontiererLogo style={{ transform: "scale(0.5)" }} />
+      <FrontiererLogo
+        className="logo-enter"
+        style={{ transform: "scale(0.5)" }}
+      />
       <Link />
     </header>
   );
