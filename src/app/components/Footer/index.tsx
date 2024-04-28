@@ -6,17 +6,17 @@ import ChapmanGuitarsLogo from "../../../../public/brand/Chapman_guitars_logo.pn
 const Footer = () => {
   return (
     <footer className="flex justify-center items-center space-x-4">
-      <div className="w-1/6">
+      <div className="w-1/12">
         <Image
           src={BareknucklePickupsLogo}
           alt="Bareknuckle pickups logo"
           layout="responsive"
         />
       </div>
-      <div className="w-1/6">
+      <div className="w-1/12">
         <Image src={IbanezLogo} alt="Ibanez guitars logo" layout="responsive" />
       </div>
-      <div className="w-1/6">
+      <div className="w-1/12">
         <Image
           src={ChapmanGuitarsLogo}
           alt="Chapman guitars logo"
