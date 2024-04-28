@@ -14,10 +14,16 @@ const Footer = () => {
         />
       </div>
       <div className="w-1/12">
-        <Image src={IbanezLogo} alt="Ibanez guitars logo" layout="responsive" />
+        <Image
+          className="img-invert"
+          src={IbanezLogo}
+          alt="Ibanez guitars logo"
+          layout="responsive"
+        />
       </div>
       <div className="w-1/12">
         <Image
+          className="img-invert"
           src={ChapmanGuitarsLogo}
           alt="Chapman guitars logo"
           layout="responsive"

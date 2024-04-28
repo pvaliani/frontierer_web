@@ -13,7 +13,10 @@
 
 @layer base {
   html,
-  body,
+  body {
+    color: white; /* ensure all text is white */
+    background: linear-gradient(135deg, #ff6817 20%, #1a1a1a 100%);
+  }
   p,
   h1,
   h2,
@@ -35,13 +38,18 @@
   font-display: swap;
 }
 
-/* :root {
+.img-invert {
+  filter: invert(1); /* invest png logos */
+}
+
+/*
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+}*/
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -57,8 +65,7 @@
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
-*/
+} */
 
 /* @layer utilities {
   .text-balance {
