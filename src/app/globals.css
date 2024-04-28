@@ -11,6 +11,30 @@
   max-height: 64px; /* maximum icon size */
 }
 
+@layer base {
+  html,
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Futura", sans-serif;
+  }
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/futura-condensed-pt-medium.woff2") format("woff2"),
+    url("/fonts/futura-condensed-pt-medium.woff") format("woff"),
+    url("/fonts/futura-condensed-pt-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -23,9 +47,9 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import BareknucklePickupsLogo from "../../../../public/Bareknuckle_pickups_logo.png";
-import IbanezLogo from "../../../../public/Ibanez_logo_PNG1.png";
-import ChapmanGuitarsLogo from "../../../../public/Chapman_guitars_logo.png";
+import BareknucklePickupsLogo from "../../../../public/brand/Bareknuckle_pickups_logo.png";
+import IbanezLogo from "../../../../public/brand/Ibanez_logo_PNG1.png";
+import ChapmanGuitarsLogo from "../../../../public/brand/Chapman_guitars_logo.png";
 
 const Footer = () => {
   return (
