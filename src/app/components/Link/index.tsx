@@ -13,7 +13,7 @@ const Link = () => {
       {links.map((link, index) => (
         <div
           key={index}
-          className="flex flex-row justify-between items-center w-full"
+          className="flex flex-row justify-between items-center w-full p-4"
         >
           <a
             href={link.appleMusic}

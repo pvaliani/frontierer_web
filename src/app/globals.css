@@ -15,7 +15,7 @@
   html,
   body {
     color: white; /* ensure all text is white */
-    background: linear-gradient(135deg, #ff6817 20%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #000000 20%, #655f5f 100%);
   }
   p,
   h1,
@@ -26,7 +26,8 @@
   h6,
   table,
   th,
-  td {
+  td,
+  a {
     font-family: "Futura", sans-serif;
   }
 }
