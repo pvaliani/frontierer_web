@@ -5,32 +5,22 @@ import ChapmanGuitarsLogo from "../../../../public/Chapman_guitars_logo.png";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center space-x-4">
-      <div className="w-1/4">
+    <footer className="flex justify-center items-center space-x-4">
+      <div className="w-1/6">
         <Image
           src={BareknucklePickupsLogo}
           alt="Bareknuckle pickups logo"
           layout="responsive"
-          width={120}
-          height={60}
         />
       </div>
-      <div className="w-1/4">
-        <Image
-          src={IbanezLogo}
-          alt="Ibanez guitars logo"
-          layout="responsive"
-          width={120}
-          height={60}
-        />
+      <div className="w-1/6">
+        <Image src={IbanezLogo} alt="Ibanez guitars logo" layout="responsive" />
       </div>
-      <div className="w-1/4">
+      <div className="w-1/6">
         <Image
           src={ChapmanGuitarsLogo}
           alt="Chapman guitars logo"
           layout="responsive"
-          width={120}
-          height={60}
         />
       </div>
     </footer>
