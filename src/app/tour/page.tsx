@@ -1,5 +1,11 @@
+import Layout from "../components/layout";
+
 const Tour = () => {
-  return <div>this is the tour page</div>;
+  return (
+    <Layout>
+      <p>This is the tour page innit gigs etc</p>
+    </Layout>
+  );
 };
 
 export default Tour;

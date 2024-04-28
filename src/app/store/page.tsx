@@ -1,5 +1,13 @@
+import Layout from "../components/layout";
+
 const Store = () => {
-  return <div>this is the store page</div>;
+  return (
+    <Layout>
+      <div>
+        <p>Welcome to our store!</p>
+      </div>
+    </Layout>
+  );
 };
 
 export default Store;

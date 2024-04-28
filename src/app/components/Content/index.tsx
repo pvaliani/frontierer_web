@@ -1,4 +1,4 @@
-import { biography } from "./content";
+import { biography } from "./biography";
 
 const Content = () => {
   return (

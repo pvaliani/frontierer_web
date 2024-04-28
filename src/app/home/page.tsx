@@ -1,14 +1,10 @@
-// Home page
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Layout from "../components/layout";
 import Content from "../components/Content";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen justify-between">
-      <Header />
+    <Layout>
       <Content />
-      <Footer />
-    </div>
+    </Layout>
   );
 }
