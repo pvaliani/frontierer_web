@@ -20,7 +20,11 @@ const Navigation = () => {
       >
         Store
         {isDropdownOpen && (
-          <div className="absolute top-full left-0 bg-white text-black w-max mt-2 rounded-md shadow-lg">
+          <div
+            className="absolute top-full left-0 bg-white text-black w-max rounded-md shadow-lg"
+            onMouseEnter={() => setIsDropdownOpen(true)}
+            onMouseLeave={() => setIsDropdownOpen(false)}
+          >
             <Link
               href="https://frontierer.bandcamp.com"
               target="_blank"
