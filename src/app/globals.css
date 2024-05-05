@@ -28,15 +28,15 @@
   th,
   td,
   a {
-    font-family: "Futura", sans-serif;
+    font-family: "IBMPlexMono", sans-serif;
   }
 }
 
 @font-face {
-  font-family: "Futura";
-  src: url("/fonts/futura-condensed-pt-medium.woff2") format("woff2"),
-    url("/fonts/futura-condensed-pt-medium.woff") format("woff"),
-    url("/fonts/futura-condensed-pt-medium.ttf") format("truetype");
+  font-family: "IBMPlexMono";
+  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2"),
+    url("/fonts/IBMPlexMono-Regular.woff") format("woff"),
+    url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -58,4 +58,37 @@
 
 .logo-enter {
   animation: fadeInScale 1s ease-in-out backwards;
+}
+
+@layer base {
+  /* Define base styles for navigation links */
+  .link,
+  .link div {
+    /* Apply styles to both links and div within links */
+    font-family: "IBMPlexMono", sans-serif; /* Use your custom font */
+    color: white; /* Set text color */
+    font-size: 1.25rem; /* Set a specific font size */
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .link:hover,
+  .link div:hover {
+    color: #cccccc; /* Change hover color */
+  }
+
+  .dropdown-item {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black; /* Color for dropdown links */
+    background-color: white; /* Background for dropdown links */
+    font-family: "IBMPlexMono", sans-serif; /* Ensure dropdown items use the same font */
+    font-size: 1rem; /* Slightly smaller font size for dropdown items */
+
+    &:hover {
+      background-color: #e0e0e0; /* Light grey on hover */
+    }
+  }
 }
