@@ -52,6 +52,9 @@ const Navigation = () => {
           </div>
         )}
       </div>
+      <Link href="/contact" className="link" passHref>
+        Contact
+      </Link>
     </nav>
   );
 };
