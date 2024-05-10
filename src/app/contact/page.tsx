@@ -8,8 +8,8 @@ const Contact = () => {
         <div className="flex flex-col items-start space-y-4">
           {bookingAgents.map((agent, index) => (
             <div key={index} className="text-left max-w-2xl w-full">
-              <h3 className="text-lg font-bold">{`${agent.territory} - ${agent.role}`}</h3>
-              <p className="text-base">
+              <h3 className="text-m md:text-2xl lg:text-3xl font-bold">{`${agent.territory} - ${agent.role}`}</h3>
+              <p className="text-m md:text-2xl lg:text-3xl whitespace-nowrap">
                 {agent.name} -{" "}
                 <a
                   href={`mailto:${agent.email}`}

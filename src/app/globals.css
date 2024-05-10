@@ -27,6 +27,7 @@
   table,
   th,
   td,
+  footer,
   a {
     font-family: "IBMPlexMono", sans-serif;
   }
@@ -65,7 +66,7 @@
   .link,
   .link div {
     /* Apply styles to both links and div within links */
-    font-family: "IBMPlexMono", sans-serif; /* Use your custom font */
+    font-family: "IBMPlexMono", sans-serif; /* Use custom font */
     color: white; /* Set text color */
     font-size: 1.25rem; /* Set a specific font size */
     text-align: center;
@@ -91,4 +92,20 @@
       background-color: #e0e0e0; /* Light grey on hover */
     }
   }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-pulse::after {
+  content: "|";
+  animation: pulse 1s infinite;
+  opacity: 1; /* Ensures it starts fully visible */
 }
