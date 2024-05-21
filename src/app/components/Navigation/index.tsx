@@ -7,7 +7,7 @@ const Navigation = () => {
 
   return (
     <nav className="flex space-x-4 p-4 relative font-IBMPlexMono">
-      <Link href="/home" className="link" passHref>
+      <Link href="/" className="link" passHref>
         Home
       </Link>
       <Link href="/tour" className="link" passHref>

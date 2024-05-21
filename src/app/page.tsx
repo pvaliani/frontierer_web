@@ -1,9 +1,14 @@
-import Header from "./components/Header";
+"use client";
+
+import Layout from "./components/layout";
+import Content from "./components/Content";
+import VideoCarousel from "./components/VideoCarousel";
 
 export default function Home() {
   return (
-    <>
-      <Header></Header>
-    </>
+    <Layout>
+      <VideoCarousel />
+      <Content />
+    </Layout>
   );
 }
